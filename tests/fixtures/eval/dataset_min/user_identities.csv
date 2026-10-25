@@ -1,0 +1,4 @@
+user_id,name,email,phone,email_hash,updated_at
+user_m1,Maria Olson,maria.new@example.com,+1 202 555 0111,3a3cbb96d1a6f1bc2485f175fe71e2af2d94d16be6a0ef10397c1e420318c289,2026-05-01T00:00:00Z
+user_m2,Tomas Berg,tomas.berg@example.com,+46 70 123 45 67,282463c3929651d647b238516e9c0b048bc31e3fb4c3defc655783efa76a4f7d,2026-02-01T00:00:00Z
+user_m3,Lucia Marsh,lucia.marsh@example.com,+44 7700 900123,a7e83310b5ba6853b17cb39c19770c94de58bc3cbb83a75f5ccfd823ea12363a,2026-03-01T00:00:00Z

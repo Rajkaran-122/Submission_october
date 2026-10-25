@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_h11,mei.lin@example.com,2026-08-25T12:00:00Z,COMPLETE,2026-08-27T12:00:00Z,2026-09-30T12:00:00Z,"Please audit the deletion of my account and confirm every copy has the required treatment, including supported records that must be retained."

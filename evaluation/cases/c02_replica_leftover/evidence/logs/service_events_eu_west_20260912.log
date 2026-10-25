@@ -1,0 +1,1 @@
+2026-09-12T08:55:00Z INFO service=account_service trace_id=tr-20260912-01 event=profile_lookup_completed resource_id="account_h02" rows=0 http_status=404 lookup_key="ines.moreau@example.com"

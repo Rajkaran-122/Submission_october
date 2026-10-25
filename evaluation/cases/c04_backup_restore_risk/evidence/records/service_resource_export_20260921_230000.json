@@ -1,0 +1,40 @@
+{
+  "exported_at": "2026-09-21T23:00:00Z",
+  "region": "global",
+  "source": "service_readback_export",
+  "service_exports": {
+    "account_service": {
+      "profile_lookups": [
+        {
+          "observed_at": "2026-09-21T22:00:00Z",
+          "profile": null,
+          "resource_id": "account_h04",
+          "status_code": 404
+        }
+      ]
+    },
+    "backup_service": {
+      "restore_entries": [
+        {
+          "observed_at": "2026-09-21T22:30:00Z",
+          "resource_id": "backup_h04",
+          "archive_key": "archive/customer-data/backup_h04.tar.zst",
+          "customer_email": "mateo.ruiz@example.com",
+          "customer_reference": null,
+          "restore_allowed": true
+        }
+      ]
+    },
+    "security_service": {
+      "audit_records": [
+        {
+          "observed_at": "2026-09-21T12:00:00Z",
+          "resource_id": "audit_h04",
+          "subject_reference": "user_h04",
+          "event_code": "ACCOUNT_DELETION_REVIEWED",
+          "retention_until": "2034-09-21T23:59:59Z"
+        }
+      ]
+    }
+  }
+}

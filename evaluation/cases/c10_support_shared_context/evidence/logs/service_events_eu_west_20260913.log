@@ -1,0 +1,3 @@
+2026-09-13T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=1 system="account_service" resource_id="account_h10" record_type="USER_PROFILE" result="NOT_FOUND" subject_reference="eva.novak@example.com"
+2026-09-13T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=2 system="support_platform" resource_id="support_h10" record_type="SUPPORT_MESSAGE" result="IDENTIFIABLE" subject_reference="eva.novak@example.com"
+2026-09-13T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=3 system="support_platform" resource_id="support_attach_h10" record_type="SUPPORT_ATTACHMENT" result="FOUND" subject_reference="eva.novak@example.com"

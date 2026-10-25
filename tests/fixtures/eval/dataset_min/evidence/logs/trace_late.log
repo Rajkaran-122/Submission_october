@@ -1,0 +1,1 @@
+2026-09-20T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=1 system="account_service" resource_id="account_001" record_type="USER_PROFILE" result="NOT_FOUND" subject_reference="maria.old@example.com"

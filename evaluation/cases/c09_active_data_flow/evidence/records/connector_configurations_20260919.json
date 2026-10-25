@@ -1,0 +1,31 @@
+{
+  "exported_at": "2026-09-19T00:00:00Z",
+  "origin": "integration_management_service",
+  "record_count": 3,
+  "records": [
+    {
+      "recorded_at": "2026-09-19T00:00:00Z",
+      "system": "integration_service",
+      "resource_id": "data_flow_h09",
+      "record_type": "DATA_FLOW",
+      "result": "ENABLED",
+      "subject_reference": "hana.sato@example.com"
+    },
+    {
+      "recorded_at": "2026-09-19T00:00:00Z",
+      "system": "account_service",
+      "resource_id": "account_h09",
+      "record_type": "USER_PROFILE",
+      "result": "NOT_FOUND",
+      "subject_reference": "hana.sato@example.com"
+    },
+    {
+      "recorded_at": "2026-09-19T00:00:00Z",
+      "system": "account_service",
+      "resource_id": "account_9998",
+      "record_type": "USER_PROFILE",
+      "result": "FOUND",
+      "subject_reference": "someone.else@example.com"
+    }
+  ]
+}

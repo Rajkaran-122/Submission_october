@@ -1,0 +1,3 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_min_01,2026-08-22T09:00:00Z,DELETE,account_service,account_service,account_001,SUCCESS,Account deletion claimed complete.
+activity_min_02,2026-09-20T09:00:00Z,INDEX_RECORD,account_service,search_service,account_001,SUCCESS,Late index refresh.

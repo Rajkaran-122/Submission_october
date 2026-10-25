@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_h07,kofi.mensah@example.com,2026-09-01T12:00:00Z,PARTIALLY_COMPLETE,2026-09-03T12:00:00Z,2026-09-15T12:00:00Z,The account is gone but the deleted-account record still shows my personal details. Please keep only the internal reference and remove the rest.

@@ -1,0 +1,4 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_h18,2026-08-27T10:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_h11,SUCCESS,Policy action completed for account_h11.
+activity_h19,2026-09-29T10:00:00Z,CHECK_DATA_FLOW,deletion_worker,integration_service,data_flow_h11,SUCCESS,Policy action completed for data_flow_h11.
+activity_h20,2026-09-29T10:05:00Z,CHECK_RESTORE_ACCESS,deletion_worker,backup_service,backup_h11,SUCCESS,Policy action completed for backup_h11.

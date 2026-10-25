@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_h10,eva.novak@example.com,2026-09-02T12:00:00Z,PARTIALLY_COMPLETE,2026-09-04T12:00:00Z,2026-09-13T12:00:00Z,"Please clean my personal details out of earlier support conversations. Some of those messages also relate to another customer, so the conversation itself may need to stay."

@@ -1,0 +1,3 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_h22,2026-09-04T10:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_h13,SUCCESS,Policy action completed for account_h13.
+activity_h23,2026-09-04T10:05:00Z,CREATE_EXPORT,export_service,object_store,export_h13,SUCCESS,Scheduled account export processed export_h13.

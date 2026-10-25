@@ -1,0 +1,4 @@
+id,deletion_status,steps_json
+case_001,INCOMPLETE,"[{""step_no"":1,""phase"":""FINDING"",""operation"":""REPORT_REMAINING_RECORD"",""state"":""PRESENT"",""system_id"":""account_service"",""resource_id"":""account_001"",""evidence_id"":""ev_min_01""},{""step_no"":2,""phase"":""REMEDIATION"",""operation"":""DELETE_RECORD"",""state"":""ABSENT"",""system_id"":""account_service"",""resource_id"":""account_001"",""evidence_id"":""""},{""step_no"":3,""phase"":""VERIFICATION"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""system_id"":""account_service"",""resource_id"":""account_001"",""evidence_id"":""""}]"
+case_002,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""system_id"":""account_service"",""resource_id"":""account_002"",""evidence_id"":""ev_min_01""}]"
+case_003,NOT_APPLICABLE,[]

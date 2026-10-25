@@ -1,0 +1,42 @@
+{
+  "exported_at": "2026-09-15T09:00:00Z",
+  "source": "records_assurance_service",
+  "snapshots": [
+    {
+      "captured_at": "2026-09-15T09:00:00Z",
+      "data_store": "account_service",
+      "collection": "customer_profiles",
+      "records": []
+    },
+    {
+      "captured_at": "2026-09-15T09:00:00Z",
+      "data_store": "identity_service",
+      "collection": "deleted_customer_references",
+      "records": [
+        {
+          "resource_id": "tombstone_h07",
+          "subject_reference": "user_h07",
+          "name": "Kofi Mensah",
+          "email": "kofi.mensah@example.com",
+          "phone": "+233 24 555 7788",
+          "email_hash": "34796d48e47a3d4785119ccb825e141f3356222d947b837f134ef1fa533224f6",
+          "account_status": "DELETED"
+        }
+      ]
+    },
+    {
+      "captured_at": "2026-09-15T09:00:00Z",
+      "data_store": "security_service",
+      "collection": "security_audit_events",
+      "records": [
+        {
+          "resource_id": "audit_h07",
+          "subject_reference": "user_h07",
+          "event_name": "account_deletion_reviewed",
+          "actor_type": "automated_privacy_workflow",
+          "integrity_seal": "sha256:00000000000000000000000000000000000000000000000000000000000000a7"
+        }
+      ]
+    }
+  ]
+}

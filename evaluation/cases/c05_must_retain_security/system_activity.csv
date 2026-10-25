@@ -1,0 +1,2 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_h09,2026-09-03T10:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_h05,SUCCESS,Policy action completed for account_h05.

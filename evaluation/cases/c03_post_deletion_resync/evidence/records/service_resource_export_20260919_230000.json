@@ -1,0 +1,63 @@
+{
+  "exported_at": "2026-09-19T23:00:00Z",
+  "region": "global",
+  "source": "service_readback_export",
+  "service_exports": {
+    "account_service": {
+      "profile_lookups": [
+        {
+          "observed_at": "2026-09-19T22:00:00Z",
+          "profile": null,
+          "resource_id": "account_h03",
+          "status_code": 404
+        }
+      ]
+    },
+    "search_service": {
+      "index_queries": [
+        {
+          "observed_at": "2026-09-18T10:00:00Z",
+          "query": "noah.fischer@example.com",
+          "resource_id": "search_h03",
+          "hits": {
+            "total": 1,
+            "documents": [
+              {
+                "resource_id": "search_h03",
+                "display_name": "Noah Fischer",
+                "email": "noah.fischer@example.com",
+                "phone": null,
+                "email_hash": null,
+                "customer_reference": "user_h03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "integration_service": {
+      "connectors": [
+        {
+          "observed_at": "2026-09-19T10:00:00Z",
+          "resource_id": "data_flow_h03",
+          "connector_name": "search_profile_indexer",
+          "customer_email": "noah.fischer@example.com",
+          "customer_reference": null,
+          "enabled": true,
+          "last_delivery_status": "delivered"
+        }
+      ]
+    },
+    "security_service": {
+      "audit_records": [
+        {
+          "observed_at": "2026-09-19T12:00:00Z",
+          "resource_id": "audit_h03",
+          "subject_reference": "user_h03",
+          "event_code": "ACCOUNT_DELETION_REVIEWED",
+          "retention_until": "2034-09-19T23:59:59Z"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+case_id,deletion_status,steps_json
+case_h12,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""system_id"":""account_service"",""resource_id"":""account_h12"",""evidence_id"":""ev_h12_pre""}]"

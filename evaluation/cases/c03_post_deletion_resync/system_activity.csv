@@ -1,0 +1,3 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_h05,2026-09-05T10:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_h03,SUCCESS,Policy action completed for account_h03.
+activity_h06,2026-09-18T09:59:00Z,SYNC_RECORD,integration_service,search_service,search_h03,SUCCESS,Continuous identity sync delivered search_h03 to search_service.

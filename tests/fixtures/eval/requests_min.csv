@@ -1,0 +1,4 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_001,maria.old@example.com,2026-08-20T10:00:00Z,COMPLETE,2026-08-22T10:00:00Z,2026-09-10T00:00:00Z,Please delete my account and all related records.
+case_002,tomas.berg@example.com,2026-08-25T10:00:00Z,PARTIALLY_COMPLETE,2026-08-27T10:00:00Z,2026-09-12T00:00:00Z,Please verify my deletion is complete.
+case_003,lucia.marsh@example.com,2026-08-28T10:00:00Z,NOT_STARTED,2026-08-30T10:00:00Z,2026-09-15T10:00:00Z,Please send me a copy of my data; do not delete my account.

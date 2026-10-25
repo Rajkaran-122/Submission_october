@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_h05,priya.nair@example.com,2026-09-01T12:00:00Z,COMPLETE,2026-09-03T12:00:00Z,2026-09-16T12:00:00Z,Please delete my account but keep any security records the law requires you to retain.

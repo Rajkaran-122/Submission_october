@@ -1,0 +1,3 @@
+2026-09-09T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=1 system="account_service" resource_id="account_001" record_type="USER_PROFILE" result="FOUND" subject_reference="maria.old@example.com"
+2026-09-09T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=2 system="account_service" resource_id="account_002" record_type="USER_PROFILE" result="NOT_FOUND" subject_reference="tomas.berg@example.com"
+2026-09-09T00:00:00Z INFO service=downstream_delivery_service event=record_lookup seq=3 system="account_service" resource_id="account_003" record_type="USER_PROFILE" result="FOUND" subject_reference="lucia.marsh@example.com"

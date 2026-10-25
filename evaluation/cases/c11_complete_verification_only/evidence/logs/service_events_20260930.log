@@ -1,0 +1,7 @@
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=1 system="account_service" resource_id="account_h11" record_type="USER_PROFILE" result="NOT_FOUND" subject_reference="mei.lin@example.com"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=2 system="search_service" resource_id="search_h11" record_type="SEARCH_INDEX_ENTRY" result="NOT_FOUND" subject_reference="mei.lin@example.com"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=3 system="security_service" resource_id="audit_h11" record_type="SECURITY_AUDIT_LOG" result="FOUND" subject_reference="user_h11"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=4 system="support_platform" resource_id="support_h11" record_type="SUPPORT_MESSAGE" result="REDACTED" subject_reference="user_h11"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=5 system="analytics_platform" resource_id="analytics_h11" record_type="ANALYTICS_PROFILE" result="ANONYMIZED" subject_reference="user_h11"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=6 system="integration_service" resource_id="data_flow_h11" record_type="DATA_FLOW" result="DISABLED" subject_reference="user_h11"
+2026-09-30T11:00:00Z INFO service=readback_collector event=record_lookup seq=7 system="backup_service" resource_id="backup_h11" record_type="BACKUP_ARCHIVE" result="BLOCKED" subject_reference="user_h11"

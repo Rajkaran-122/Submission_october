@@ -1,0 +1,42 @@
+{
+  "exported_at": "2026-09-16T20:00:00Z",
+  "source": "records_assurance_service",
+  "snapshots": [
+    {
+      "captured_at": "2026-09-16T20:00:00Z",
+      "data_store": "account_service",
+      "collection": "customer_profiles",
+      "records": []
+    },
+    {
+      "captured_at": "2026-09-16T20:00:00Z",
+      "data_store": "identity_service",
+      "collection": "deleted_customer_references",
+      "records": [
+        {
+          "resource_id": "tombstone_h06",
+          "subject_reference": "user_h06",
+          "name": null,
+          "email": null,
+          "phone": null,
+          "email_hash": null,
+          "account_status": "DELETED"
+        }
+      ]
+    },
+    {
+      "captured_at": "2026-09-16T20:00:00Z",
+      "data_store": "security_service",
+      "collection": "security_audit_events",
+      "records": [
+        {
+          "resource_id": "audit_h06",
+          "subject_reference": "user_h06",
+          "event_name": "account_deletion_reviewed",
+          "actor_type": "automated_privacy_workflow",
+          "integrity_seal": "sha256:00000000000000000000000000000000000000000000000000000000000000a6"
+        }
+      ]
+    }
+  ]
+}

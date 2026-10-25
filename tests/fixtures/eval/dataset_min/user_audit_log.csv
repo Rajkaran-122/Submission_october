@@ -1,0 +1,2 @@
+audit_id,user_id,event_time,field_name,old_value,new_value
+audit_min_01,user_m1,2026-05-01T00:00:00Z,email,maria.old@example.com,maria.new@example.com

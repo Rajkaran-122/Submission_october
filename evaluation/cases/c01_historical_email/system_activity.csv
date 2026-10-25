@@ -1,0 +1,3 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_h01,2026-09-02T09:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_h01,SUCCESS,Policy action completed for account_h01.
+activity_h02,2026-09-02T09:05:00Z,LINK_RESOURCE_IDENTITY,data_catalog,account_service,account_h01,SUCCESS,Data catalog linked account_h01 (account_h01) to amina.old@example.com and user_h01.

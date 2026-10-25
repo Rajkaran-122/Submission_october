@@ -1,0 +1,2 @@
+case_id,deletion_status,steps_json
+case_h05,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""system_id"":""account_service"",""resource_id"":""account_h05"",""evidence_id"":""ev_h05""},{""step_no"":2,""phase"":""VERIFICATION"",""operation"":""VERIFY_RECORD_PRESENT"",""state"":""PRESENT"",""system_id"":""security_service"",""resource_id"":""audit_h05"",""evidence_id"":""ev_h05""}]"

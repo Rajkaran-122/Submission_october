@@ -1,0 +1,1 @@
+2026-09-14T23:00:00Z INFO service=account_service trace_id=tr-20260914-01 event=profile_lookup_completed resource_id="account_h08" rows=1 http_status=200 lookup_key="luis.ortega@example.com"

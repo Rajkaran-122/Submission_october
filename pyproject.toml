@@ -1,0 +1,26 @@
+[project]
+name = "ghost-audit"
+version = "0.1.0"
+description = "Deterministic deletion-audit agent for HackerRank Orchestrate October 2026 (Ghost Data Still Exists)"
+readme = "README.md"
+authors = [
+    { name = "Rajkaran_122", email = "re_Rajkaran_122@outlook.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pypdf>=6.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+# Keep pytest scoped to the project test suite: the local scratch directory
+# (work/) and packaged mirrors must never be collected accidentally.
+testpaths = ["tests"]

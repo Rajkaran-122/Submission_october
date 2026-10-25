@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NO_PROXY: 127.0.0.1,localhost,::1
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.28"
+      - name: Install Python
+        run: uv python install
+      - name: Install locked dependencies
+        run: uv sync --locked
+      - name: Run test suite
+        # The official dataset is not committed to this repository; tests that
+        # need it skip cleanly in CI. All contract/planner/evaluation tests run.
+        run: uv run --locked pytest -q
+      - name: CLI and evaluator smoke checks
+        run: |
+          uv run --locked python -m ghost_audit --help
+          uv run --locked python evaluation/evaluate.py --help

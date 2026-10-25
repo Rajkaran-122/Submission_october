@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.uv-cache
+
+# macOS
+.DS_Store
+
+# original challenge reference checkout (read-only input, not part of this repo)
+docs/refs/hackerrank-orchestrate-october26-main
+
+# raw AI harness conversation exports (machine-specific input for
+# scripts/build_transcript.py; the sanitized transcript is committed in
+# submission/log.txt instead)
+.conversations/
+
+# local scratch / analysis workspace
+work/
+.ocr-cache/
+
+# local secrets: DeepSeek API key is provided out-of-band and must never be committed
+src/ghost_audit/config/
+src/templete_project/config/
+.env
+
+# generated evaluation scratch/telemetry (never shipped)
+evaluation/.tmp/
+evaluation/llm_usage.jsonl
